@@ -29,7 +29,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2%;
+  padding: 17px;
 }
 
 .header img {
@@ -39,6 +39,64 @@ body {
 
 .header ion-icon {
   font-size: 50px;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  padding-top: 106px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.user-in {
+  width: 375px;
+  height: 40px;
+  background-color: #DCDCDC;
+  border-radius: 2px;
+}
+
+.msgs {
+  width: 375px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.reserved-msg {
+  width: 375px;
+  height: 63px;
+  background: #FFDEDE;
+  border-radius: 2px;
+}
+
+.user-out {
+  width: 375px;
+  height: 40px;
+  background-color: #DCDCDC;
+  border-radius: 2px;
+}
+
+.same-config-msgs {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px;
+}
+
+span {
+  color: #AAAAAA;
+}
+
+strong {
+  font-style: bold;
+  font-weight: 700;
+}
+
+p,
+span {
+  font-size: 15px;
 }
 
 .footer {
@@ -51,7 +109,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4%;
+  padding: 17px;
 }
 
 .footer img {
@@ -68,6 +126,7 @@ input {
   height: 100%;
   width: 86%;
   border: none;
+  padding: 5px;
 }
 
 input::placeholder {
@@ -76,4 +135,5 @@ input::placeholder {
   font-style: italic;
   font-weight: 400;
   font-size: 18px;
+  
 }
